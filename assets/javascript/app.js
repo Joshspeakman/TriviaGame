@@ -97,7 +97,7 @@ $(document).ready(function() {
       question: "Who is Lando Calrissian's co-pilot in Return of the Jedi?",
       options: [
         "Han Solo",
-        "Chewy",
+        "Boba Fett",
         "Chewbacca",
         "Nien Nunb"
       ],
