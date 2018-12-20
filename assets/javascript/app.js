@@ -4,8 +4,11 @@ $(document).ready(function() {
     $(".questionBody").prop("hidden", false);
     $(".score").prop("hidden", false);
     nextWord();
+    music.play();
   });
-
+  
+  var music = new Audio('assets/sounds/star-wars-theme-song.mp3');
+  
   var questionAnswerArray = [
     {
       question:
