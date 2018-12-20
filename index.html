@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>STARWARS Trivia Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar justify-content-center">
+                <h1>STARWARS Trivia Game!</h1>
+            </nav>
+        </div>
+    </header>
+    <div class="container mt-4 gameContainer">
+        <div class="card text-center">
+            <div class="card-header startMessage">
+                Press any key to start...
+            </div>
+            <div class="card-body questionBody" hidden>
+                <h5 class="card-title questionText">Question?</h5>
+                <ul class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action option1">Option 1</button>
+                    <button type="button" class="list-group-item list-group-item-action option2">Option 2</button>
+                    <button type="button" class="list-group-item list-group-item-action option3">Option 3</button>
+                    <button type="button" class="list-group-item list-group-item-action option4">Option 4</button>
+                </ul>
+            </div>
+            <div class="card-footer" hidden>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4 score" hidden>
+        <div class="card text-center">
+            <div class="card-body">
+                <ul class="list-group scoreList">
+                    <div class="list-group-item timer">
+                        You have <span class="timeLeft">10</span> seconds left
+                    </div>
+                    <div class="list-group-item">
+                        Correct: <span class="numCorrect">0</span>
+                    </div>
+                    <div class="list-group-item">
+                        Incorrect: <span class="numIncorrect">0</span>
+                    </div>
+                    <button class="list-group-item list-group-item-action list-group-item-danger reset" hidden>
+                        Reset
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

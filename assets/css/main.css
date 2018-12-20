@@ -1,0 +1,82 @@
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/star-wars_1024.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #333333;
+
+}
+
+nav, div.card, div.card-header, div.card-body, div.card-footer {
+    background-color: rgba(223, 219, 219, 0.5);
+}
+
+h1 {
+    font-family: 'ITC Serif Gothic';
+    letter-spacing: 4px;
+    color: #FFEB3B !important;
+    text-shadow: 2px 2px #333333;
+    font-size: 4.0rem;
+}
+
+h5, .startMessage, .list-group-item, .card-footer {
+    font-family: 'ITC Serif Gothic';
+    letter-spacing: 2px;
+    font-size: 2.0rem;
+}
+
+.list-group-item:focus, .list-group-item:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.scoreList>.list-group-item {
+    font-size: 1.0rem;
+}
+
+@media only screen and (max-width: 980px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h5, .startMessage, .list-group-item {
+        font-size: 1.6rem;
+    }
+
+    .scoreList>.list-group-item {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3.0rem;
+    }
+
+    h5, .startMessage, .list-group-item {
+        font-size: 1.4rem;
+    }
+
+    .scoreList>.list-group-item {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h5, .startMessage, .list-group-item {
+        font-size: 1.2rem;
+    }
+
+    .scoreList>.list-group-item {
+        font-size: 0.6rem;
+    }
+}
